@@ -5,19 +5,35 @@
 }
 
 header{
-    height: 200px;
     width: 100%;
     background-color: white;
+    display: flex;
+    column-gap: 20px;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    height: 200px;
+}
+#container-info{
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+}
+
+.descricao{
+    text-align: justify;
 }
 
 main{
-    height: 600px;
     width: 100%;
     background-color: aqua;
 }
 
 footer{
-    height: 200px;
     width: 100%;
     background-color: blue;
 }
+
