@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
     background-color: black;
     color: white;
 }
@@ -31,8 +32,8 @@ header>img{
 main{
     width: 100%;
 }
-#experiencia, #projetos{
-    background-color: rgb(255, 208, 0);
+#projetos{
+    background-color: rgb(215, 184, 53);
     color: black;
 }
 
@@ -52,15 +53,18 @@ main{
     width: 25px;
 }
 
+.imagem-linguagem:hover{
+    width: 35px;
+}
+
 .imagem-projeto{
     width: 100px;
+}
+
+.imagem-projeto:hover{
+    width: 150px;
 }
 
 footer{
     width: 100%;
 }
-
-#nome{
-    background-color: red;
-}
-
